@@ -1,7 +1,6 @@
 // Jenkinsfile
 String credentialsId = 'awsCredentials'
 
-
   stage('checkout') {
     node {
       cleanWs()
