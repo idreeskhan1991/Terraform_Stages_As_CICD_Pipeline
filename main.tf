@@ -1,7 +1,7 @@
 # Terraform state will be stored in S3
 terraform {
   backend "s3" {
-    bucket = var.s3
+    bucket = "cicd-jen-ter-buck"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
